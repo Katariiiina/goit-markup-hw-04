@@ -418,6 +418,11 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
   padding: 100px 0;
 }
 
+.footer .container{
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -445,14 +450,12 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
   color: #f4f4fd;
 }
 .footer-sublogo{
- margin-right: 120px; 
 }
 
 .social-link {
   display: flex;
   align-items: baseline;
   margin-right: 120px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link-items {
   display: flex;
@@ -470,6 +473,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon-lin:hover,
@@ -487,5 +491,6 @@ color: #fff;
 margin-bottom: 16px;
 }
 .social-icon {
+  fill: #f4f4fd;
 }
 /*#end footer*/
