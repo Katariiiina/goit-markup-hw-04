@@ -258,16 +258,19 @@ margin-bottom: 8px;
   margin-top: 8px;
   margin-bottom: 0 16px;
   width: calc((100% - 24 * 3) / 4);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .workers-social-icon {
+
 }
 .workers-icon-lin {
+  width: 40px;
+  height: 40px;
 background-color: #4d5ae5;
 border-radius: 50%;
 display: flex;
 justify-content: center;
 align-items: center;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .workers-icon-lin:hover,
@@ -443,6 +446,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 }
 
 .social-link {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
 }
 .social-link-items {
 }
